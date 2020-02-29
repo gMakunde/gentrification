@@ -17,6 +17,8 @@
 		8372A45A240A815200049820 /* hack24Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A459240A815200049820 /* hack24Tests.swift */; };
 		8372A465240A815200049820 /* hack24UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A464240A815200049820 /* hack24UITests.swift */; };
 		8372A475240A81A800049820 /* symptomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A474240A81A800049820 /* symptomCell.swift */; };
+		8372A47B240AC87B00049820 /* representativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A47A240AC87B00049820 /* representativeViewController.swift */; };
+		8372A47D240AC8DC00049820 /* representativeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A47C240AC8DC00049820 /* representativeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		8372A464240A815200049820 /* hack24UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hack24UITests.swift; sourceTree = "<group>"; };
 		8372A466240A815200049820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8372A474240A81A800049820 /* symptomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptomCell.swift; sourceTree = "<group>"; };
+		8372A47A240AC87B00049820 /* representativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = representativeViewController.swift; sourceTree = "<group>"; };
+		8372A47C240AC8DC00049820 /* representativeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = representativeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				8372A450240A815100049820 /* Info.plist */,
 				565497DD240A99700098681C /* OpenSans-master */,
 				8372A474240A81A800049820 /* symptomCell.swift */,
+				8372A47A240AC87B00049820 /* representativeViewController.swift */,
+				8372A47C240AC8DC00049820 /* representativeCell.swift */,
 			);
 			path = hack24;
 			sourceTree = "<group>";
@@ -266,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8372A47B240AC87B00049820 /* representativeViewController.swift in Sources */,
 				8372A447240A814D00049820 /* ViewController.swift in Sources */,
 				8372A443240A814D00049820 /* AppDelegate.swift in Sources */,
 				8372A475240A81A800049820 /* symptomCell.swift in Sources */,
+				8372A47D240AC8DC00049820 /* representativeCell.swift in Sources */,
 				8372A445240A814D00049820 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
