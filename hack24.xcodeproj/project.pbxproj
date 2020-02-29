@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565497DE240A99700098681C /* OpenSans-master in Resources */ = {isa = PBXBuildFile; fileRef = 565497DD240A99700098681C /* OpenSans-master */; };
 		8372A443240A814D00049820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A442240A814D00049820 /* AppDelegate.swift */; };
 		8372A445240A814D00049820 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A444240A814D00049820 /* SceneDelegate.swift */; };
 		8372A447240A814D00049820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A446240A814D00049820 /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		8372A44F240A815100049820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8372A44D240A815100049820 /* LaunchScreen.storyboard */; };
 		8372A45A240A815200049820 /* hack24Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A459240A815200049820 /* hack24Tests.swift */; };
 		8372A465240A815200049820 /* hack24UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A464240A815200049820 /* hack24UITests.swift */; };
-		8372A473240A818400049820 /* symptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A472240A818400049820 /* symptomsViewController.swift */; };
 		8372A475240A81A800049820 /* symptomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372A474240A81A800049820 /* symptomCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		565497DD240A99700098681C /* OpenSans-master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "OpenSans-master"; sourceTree = SOURCE_ROOT; };
 		8372A43F240A814D00049820 /* hack24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hack24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8372A442240A814D00049820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8372A444240A814D00049820 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		8372A460240A815200049820 /* hack24UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hack24UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8372A464240A815200049820 /* hack24UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hack24UITests.swift; sourceTree = "<group>"; };
 		8372A466240A815200049820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8372A472240A818400049820 /* symptomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptomsViewController.swift; sourceTree = "<group>"; };
 		8372A474240A81A800049820 /* symptomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,11 +106,11 @@
 				8372A442240A814D00049820 /* AppDelegate.swift */,
 				8372A444240A814D00049820 /* SceneDelegate.swift */,
 				8372A446240A814D00049820 /* ViewController.swift */,
-				8372A472240A818400049820 /* symptomsViewController.swift */,
 				8372A448240A814D00049820 /* Main.storyboard */,
 				8372A44B240A815100049820 /* Assets.xcassets */,
 				8372A44D240A815100049820 /* LaunchScreen.storyboard */,
 				8372A450240A815100049820 /* Info.plist */,
+				565497DD240A99700098681C /* OpenSans-master */,
 				8372A474240A81A800049820 /* symptomCell.swift */,
 			);
 			path = hack24;
@@ -241,6 +241,7 @@
 				8372A44F240A815100049820 /* LaunchScreen.storyboard in Resources */,
 				8372A44C240A815100049820 /* Assets.xcassets in Resources */,
 				8372A44A240A814D00049820 /* Main.storyboard in Resources */,
+				565497DE240A99700098681C /* OpenSans-master in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +268,6 @@
 			files = (
 				8372A447240A814D00049820 /* ViewController.swift in Sources */,
 				8372A443240A814D00049820 /* AppDelegate.swift in Sources */,
-				8372A473240A818400049820 /* symptomsViewController.swift in Sources */,
 				8372A475240A81A800049820 /* symptomCell.swift in Sources */,
 				8372A445240A814D00049820 /* SceneDelegate.swift in Sources */,
 			);
@@ -443,7 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7DF23RMRWS;
+				DEVELOPMENT_TEAM = RZSQL3J9XN;
 				INFOPLIST_FILE = hack24/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,7 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7DF23RMRWS;
+				DEVELOPMENT_TEAM = RZSQL3J9XN;
 				INFOPLIST_FILE = hack24/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
