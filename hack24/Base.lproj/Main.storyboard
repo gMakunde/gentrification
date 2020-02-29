@@ -204,9 +204,6 @@
                                 <rect key="frame" x="6" y="120" width="353" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Rectangle 11"/>
-                                <connections>
-                                    <segue destination="0Y1-Jw-7HY" kind="presentation" modalPresentationStyle="fullScreen" id="Lfa-pK-5zU"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who Represents You?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQ0-cs-cSH">
                                 <rect key="frame" x="57" y="346" width="318" height="21"/>
@@ -225,8 +222,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Policies you can Advocate for" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meF-KN-d6B">
                                 <rect key="frame" x="25" y="136" width="334" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlG-ez-Pta">
                                 <rect key="frame" x="0.0" y="302" width="375" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -234,7 +231,6 @@
                                     <segue destination="3wJ-GQ-Huv" kind="presentation" modalPresentationStyle="fullScreen" id="ckJ-Hc-snN"/>
                                 </connections>
                             </button>
-
                         </subviews>
                         <color key="backgroundColor" red="0.25490196079999999" green="0.23529411759999999" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="xzn-VZ-SfH"/>
